@@ -1,0 +1,11 @@
+/* .title {
+  @media screen and(min-width: 200px) {
+    color: aqua;
+  }
+} */
+
+@media screen and(max-width: 600px) {
+  .title {
+    color: aqua;
+  }
+}
