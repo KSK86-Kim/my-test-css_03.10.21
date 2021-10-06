@@ -1,0 +1,31 @@
+.svg {
+  width: 56px;
+  height: 56px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  &:hover {
+    --color1: #ffdac0;
+    --color2: #ff751d;
+  }
+}
+
+.svg__action {
+  --color1: #ffdac0;
+  --color2: #ff751d;
+}
+
+.span {
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #52555f;
+}
+
+.btn {
+  width: 100%;
+  background: none;
+  border: none;
+}

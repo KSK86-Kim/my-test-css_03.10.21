@@ -24,6 +24,25 @@
 .error {
   color: red;
 }
+@media screen and(max-width: 767px) {
+  .wrapper {
+    min-width: 320px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin: 0 auto;
+  }
+}
+@media screen and(min-width: 768px) {
+  .wrapper {
+    min-width: 668px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+  }
+  .wrapperReportMenu {
+    padding: 20px 20px 30px;
+  }
+}
 // @media screen and(max-width: 600px) {
 //   .title {
 //     color: aqua;
