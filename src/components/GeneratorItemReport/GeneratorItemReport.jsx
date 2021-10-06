@@ -3,6 +3,11 @@ import ItemReport from "../ItemReport";
 
 import s from "./GeneratorItemReport.module.scss";
 
+// prop
+// chapter: "product",
+// text: "Продукты",
+// value: "5 000.00",
+
 class GeneratorItemReport extends Component {
   state = {
     activeChaterIdx: 0,

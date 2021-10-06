@@ -21,8 +21,10 @@ function App({ arr }) {
 App.propTypes = {
   arr: PropTypes.arrayOf(
     PropTypes.shape({
-      test: PropTypes.string,
-      type: PropTypes.oneOf(["success", "error"]),
+      chapter: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired,
+      value: PropTypes.string.isRequired,
+      // type: PropTypes.oneOf(["success", "error"]),
     })
   ),
 };
