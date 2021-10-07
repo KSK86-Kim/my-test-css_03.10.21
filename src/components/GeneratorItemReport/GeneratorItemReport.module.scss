@@ -15,8 +15,9 @@
   list-style-type: none;
   position: relative;
   min-height: 98px;
-  max-height: 122px;
   margin-bottom: 20px;
+  word-wrap: break-word;
+
   @media screen and(max-width: 767px) {
     width: 0;
     flex-basis: calc(100% / 3 - 7px);
@@ -31,7 +32,7 @@
       width: 600%;
 
       position: absolute;
-      top: 117px;
+      top: 116%;
 
       background: #e0e5eb;
     }
@@ -47,7 +48,7 @@
       width: 600%;
 
       position: absolute;
-      top: 120px;
+      top: 116%;
 
       background: #e0e5eb;
     }

@@ -1,5 +1,4 @@
 import s from "./App.module.scss";
-import sg from "../../vars.module.css";
 import PropTypes from "prop-types";
 
 import GeneratorItemReport from "../GeneratorItemReport";
