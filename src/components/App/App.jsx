@@ -2,6 +2,7 @@ import s from "./App.module.scss";
 import PropTypes from "prop-types";
 
 import GeneratorItemReport from "../GeneratorItemReport";
+import GeneratorScheduleReport from "../GeneratorScheduleReport";
 
 function App({ arr }) {
   console.log(arr);
@@ -11,6 +12,9 @@ function App({ arr }) {
       <div className={s.wrapper}>
         <div className={s.wrapperReportMenu}>
           <GeneratorItemReport arrChapters={arr} />
+        </div>
+        <div className={s.wrapperReportMenu}>
+          <GeneratorScheduleReport arrItemChapter={arr} />
         </div>
       </div>
     </>

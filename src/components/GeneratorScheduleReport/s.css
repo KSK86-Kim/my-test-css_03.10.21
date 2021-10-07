@@ -1,0 +1,12 @@
+/* .recharts-cartesian-axis-tick-line {
+  display: none;
+} */
+.asd .recharts-xAxis {
+  /* transform: translate(0, -50px); */
+  /* transform: rotate(45deg); */
+}
+
+.asd .recharts-yAxis {
+  /* display: none; */
+  transform: translate(50px, -20px);
+}
